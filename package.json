@@ -1,0 +1,26 @@
+{
+  "name": "Vinder_SQL_DB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "seed": "psql -f db/seed.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgjc75/Vinder_SQL_DB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgjc75/Vinder_SQL_DB/issues"
+  },
+  "homepage": "https://github.com/mgjc75/Vinder_SQL_DB#readme"
+}
